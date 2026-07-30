@@ -3,20 +3,16 @@
 <img src="assets/blackhole.svg" width="100%"/>
 
 <a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=800&color=B983FF&background=00000000&center=true&vCenter=true&width=700&lines=%3D+%7B+role%3A+%22Data+Analytics+Intern+%40+SystemsLimited%22+%7D%3B;building%3A+%5B%22BLOOM%22%2C+%22SADA%22%2C+%22NLP+Injection+Detector%22%5D;goal%3A+%22CS+Master's+Abroad%22%3B" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=800&color=B983FF&background=00000000&center=true&vCenter=true&width=700&lines=Data%20Analytics%20Intern%20%40%20Systems%20Limited;Building%20BLOOM%2C%20SADA%2C%20and%20the%20NLP%20Injection%20Detector;Pursuing%20a%20fully-funded%20CS%20Master's%20abroad" alt="Typing SVG" />
 </a>
-
-<br><br>
-
-![Profile Views](https://komarev.com/ghpvc/?username=aaleenfatima&color=B983FF&style=flat-square&label=PROFILE+VIEWS)
-![Followers](https://img.shields.io/github/followers/aaleenfatima?style=flat-square&color=F72585&label=FOLLOWERS&labelColor=0f0c29)
-![Status](https://img.shields.io/badge/status-shipping_BLOOM_%F0%9F%8C%B8-7EE8FA?style=flat-square&labelColor=0f0c29)
 
 </div>
 
 <br>
 
-## `$ whoami`
+<div align="center">
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=24&duration=2500&pause=100000&color=F72585&background=00000000&center=true&vCenter=true&repeat=false&width=360&lines=About%20Me" />
+</div>
 
 - 🎓 Final-year **Computer Science** student at **FAST NUCES**, Pakistan — starting my last year in August 2026
 - 💼 **Data Analytics Intern @ [Company]** — proposed and now leading my own project
@@ -26,7 +22,9 @@
 
 ---
 
-## `$ tech_stack --list`
+<div align="center">
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=24&duration=2500&pause=100000&color=7EE8FA&background=00000000&center=true&vCenter=true&repeat=false&width=420&lines=Tech%20Stack" />
+</div>
 
 <div align="center">
 
@@ -46,7 +44,9 @@
 
 ---
 
-## `$ ps -ef | grep "in_progress"`
+<div align="center">
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=24&duration=2500&pause=100000&color=B983FF&background=00000000&center=true&vCenter=true&repeat=false&width=520&lines=Current%20Projects" />
+</div>
 
 <table>
 <tr>
@@ -82,7 +82,9 @@ Built on the RAVDESS emotional speech dataset:
 
 ---
 
-## `$ ls ./featured-projects`
+<div align="center">
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=24&duration=2500&pause=100000&color=7EE8FA&background=00000000&center=true&vCenter=true&repeat=false&width=460&lines=Featured%20Projects" />
+</div>
 
 <table>
 <tr>
@@ -147,7 +149,9 @@ Handwriting OCR enhancement built on top of **TrOCR**.
 
 ---
 
-## `$ git log --stats --all`
+<div align="center">
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=24&duration=2500&pause=100000&color=F72585&background=00000000&center=true&vCenter=true&repeat=false&width=420&lines=GitHub%20Stats" />
+</div>
 
 <div align="center">
 
@@ -165,7 +169,9 @@ Handwriting OCR enhancement built on top of **TrOCR**.
 
 ---
 
-## `$ contact --init`
+<div align="center">
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=24&duration=2500&pause=100000&color=B983FF&background=00000000&center=true&vCenter=true&repeat=false&width=360&lines=Contact" />
+</div>
 
 <div align="center">
 
