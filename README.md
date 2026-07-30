@@ -1,44 +1,66 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=220&section=header&text=Hi%20there,%20I'm%20Aaleen%20👋&fontSize=42&fontColor=fff&animation=fadeIn&fontAlignY=35&desc=Building%20AI%20that%20helps%20people%20—%20one%20model%20at%20a%20time&descAlignY=55&descSize=18" width="100%"/>
+<img src="assets/blackhole.svg" width="100%"/>
 
 <a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&pause=1000&color=A78BFA&center=true&vCenter=true&width=650&lines=Final-Year+CS+Student+%40+FAST+NUCES;Data+Analytics+Intern;Building+BLOOM+%F0%9F%8C%B8+%7C+SADA+%F0%9F%AA%90+%7C+ML+%2B+NLP;Aspiring+Fully-Funded+Master's+Student" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=800&color=B983FF&background=00000000&center=true&vCenter=true&width=700&lines=%3D+%7B+role%3A+%22Data+Analytics+Intern+%40+SystemsLimited%22+%7D%3B;building%3A+%5B%22BLOOM%22%2C+%22SADA%22%2C+%22NLP+Injection+Detector%22%5D;goal%3A+%22CS+Master's+Abroad%22%3B" alt="Typing SVG" />
 </a>
+
+<br><br>
+
+![Profile Views](https://komarev.com/ghpvc/?username=aaleenfatima&color=B983FF&style=flat-square&label=PROFILE+VIEWS)
+![Followers](https://img.shields.io/github/followers/aaleenfatima?style=flat-square&color=F72585&label=FOLLOWERS&labelColor=0f0c29)
+![Status](https://img.shields.io/badge/status-shipping_BLOOM_%F0%9F%8C%B8-7EE8FA?style=flat-square&labelColor=0f0c29)
 
 </div>
 
 <br>
 
-<img align="right" src="https://github-readme-stats.vercel.app/api?username=aaleenfatima&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true" width="48%"/>
-
-## 🪐 About Me
+## `$ whoami`
 
 - 🎓 Final-year **Computer Science** student at **FAST NUCES**, Pakistan — starting my last year in August 2026
-- 💼 Currently a **Data Analytics Intern**, where I proposed and now lead my own project alongside my team member
-- 🔬 Passionate about **applied ML/NLP**, multimodal systems, and building things that solve real problems
-- 🌱 Working toward a  **Master's degree abroad** (Germany 🇩🇪 / Switzerland 🇨🇭 / Japan 🇯🇵 / South Korea 🇰🇷 / USA 🇺🇸)
-- ⚡ Fun fact: I push back on complexity — if there's a simpler working solution, I'll find it
-
-<br clear="right"/>
+- 💼 **Data Analytics Intern @ [Company]** — proposed and now leading my own project
+- 🔬 Focused on **applied ML/NLP**, multimodal systems, and shipping things that actually work
+- 🌱 Working toward a **Master's abroad** (🇩🇪 Germany / 🇨🇭 Switzerland / 🇯🇵 Japan / 🇰🇷 South Korea / 🇺🇸 USA)
+- ⚡ Philosophy: the simplest working solution wins — every time
 
 ---
 
-## 🚀 What I'm Building Right Now
+## `$ tech_stack --list`
+
+<div align="center">
+
+<img src="https://skillicons.dev/icons?i=python,cpp,pytorch,tensorflow,java,androidstudio,git,github,vscode,linux,figma&theme=dark" />
+
+<br><br>
+
+![PyTorch](https://img.shields.io/badge/PyTorch-000000?style=for-the-badge&logo=pytorch&logoColor=EE4C2C)
+![Transformers](https://img.shields.io/badge/🤗_Transformers-000000?style=for-the-badge&logoColor=FFD21E)
+![OpenCV](https://img.shields.io/badge/OpenCV-000000?style=for-the-badge&logo=opencv&logoColor=5C3EE8)
+![Streamlit](https://img.shields.io/badge/Streamlit-000000?style=for-the-badge&logo=streamlit&logoColor=FF4B4B)
+![Plotly](https://img.shields.io/badge/Plotly-000000?style=for-the-badge&logo=plotly&logoColor=3F4F75)
+![Pandas](https://img.shields.io/badge/Pandas-000000?style=for-the-badge&logo=pandas&logoColor=150458)
+![Android](https://img.shields.io/badge/Android-000000?style=for-the-badge&logo=android&logoColor=3DDC84)
+
+</div>
+
+---
+
+## `$ ps -ef | grep "in_progress"`
 
 <table>
 <tr>
 <td width="50%" valign="top">
 
 ### 🌸 BLOOM
-**Offline Android app for early screening of autism, ADHD & speech delays in young children**
+**Offline Android app screening young children for autism, ADHD & speech delays**
 
-My Final Year Project — a fully offline multimodal pipeline unifying three modules under one Fusion Engine:
+My Final Year Project — three modules unified by one Fusion Engine:
 - 🎥 **VideoSense** — behavioral video analysis (MTCNN, MediaPipe, YOLOv5s)
 - 🎙️ **SpeechLeap** — speech pattern analysis (Whisper, Wav2Vec2)
 - 🕹️ **PlayPal** — interactive play-based assessment
 
-Currently finalizing the Master Multimodal Data Acquisition Protocol and preparing to secure clinical dataset access with a psychiatry specialist.
+Currently finalizing the Master Multimodal Data Acquisition Protocol and preparing clinical dataset access with a psychiatry specialist.
 
 `Python` `PyTorch` `Android` `Multimodal ML` `On-device Inference`
 
@@ -46,12 +68,11 @@ Currently finalizing the Master Multimodal Data Acquisition Protocol and prepari
 <td width="50%" valign="top">
 
 ### 🎙️ AI Interview Practice Coach
-**A practice project mirroring BLOOM's Fusion Engine logic**
 
-Built on the RAVDESS emotional speech dataset, covering:
+Built on the RAVDESS emotional speech dataset:
 - 📊 Evaluation & visualization of speech/emotion signals
 - 🔍 Root cause analysis of performance patterns
-- 🤖 LLM-generated coaching reports via a **local Ollama** instance
+- 🤖 LLM-generated coaching reports via **local Ollama**
 
 `Python` `RAVDESS` `Ollama` `Speech Emotion Recognition`
 
@@ -61,7 +82,7 @@ Built on the RAVDESS emotional speech dataset, covering:
 
 ---
 
-## ✨ Featured Projects
+## `$ ls ./featured-projects`
 
 <table>
 <tr>
@@ -69,7 +90,7 @@ Built on the RAVDESS emotional speech dataset, covering:
 
 **🛡️ NLP Prompt Injection Detector**
 
-Transformer-based classifier detecting adversarial prompt injections — **95% accuracy**, benchmarked against multiple models. Preparing an arXiv preprint + workshop submissions (EMNLP/ACL).
+Transformer-based classifier — **95% accuracy**, benchmarked against multiple models. Prepping an arXiv preprint + EMNLP/ACL workshop submissions.
 
 `Transformers` `PyTorch` `NLP Security`
 
@@ -80,14 +101,14 @@ Transformer-based classifier detecting adversarial prompt injections — **95% a
 
 ML + agentic architecture for **exoplanet transit detection** using NASA Kepler data. Targeting ML4PS @ NeurIPS.
 
-`Machine Learning` `Agentic AI` `Astrophysics Data`
+`Machine Learning` `Agentic AI` `Astro Data`
 
 </td>
 <td width="33%" valign="top">
 
 **🧠 Aniporia**
 
-AI-powered knowledge gap tracker built on the **Gemini API** to help learners identify and close conceptual gaps.
+AI-powered knowledge gap tracker built on the **Gemini API**.
 
 `Gemini API` `EdTech`
 
@@ -98,16 +119,16 @@ AI-powered knowledge gap tracker built on the **Gemini API** to help learners id
 
 **🌐 TCP/IP Stack**
 
-A from-scratch TCP/IP implementation in **C++**, following Stanford's **CS144** networking course.
+From-scratch TCP/IP implementation in **C++**, following Stanford's **CS144**.
 
-`C++` `Networking` `Systems Programming`
+`C++` `Networking` `Systems`
 
 </td>
 <td width="33%" valign="top">
 
 **📘 Facebook Clone**
 
-Full social-platform clone built in **C++** using object-oriented design principles.
+Full social-platform clone in **C++**, built with OOP design principles.
 
 `C++` `OOP` `System Design`
 
@@ -116,7 +137,7 @@ Full social-platform clone built in **C++** using object-oriented design princip
 
 **✍️ StyleScript**
 
-Handwriting OCR enhancement project built on top of **TrOCR** for improved stylized handwriting recognition.
+Handwriting OCR enhancement built on top of **TrOCR**.
 
 `TrOCR` `Computer Vision` `OCR`
 
@@ -126,43 +147,30 @@ Handwriting OCR enhancement project built on top of **TrOCR** for improved styli
 
 ---
 
-## 🛠️ Tech Stack
+## `$ git log --stats --all`
 
 <div align="center">
 
-<img src="https://skillicons.dev/icons?i=python,cpp,pytorch,tensorflow,java,androidstudio,git,github,vscode,linux,figma&theme=dark" />
+<img src="https://github-readme-stats.vercel.app/api?username=aaleenfatima&show_icons=true&theme=synthwave&hide_border=true&count_private=true&include_all_commits=true" width="48%"/>
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=aaleenfatima&theme=synthwave&hide_border=true" width="48%"/>
+
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=aaleenfatima&layout=compact&theme=synthwave&hide_border=true" width="48%"/>
+<img src="https://github-profile-trophy.vercel.app/?username=aaleenfatima&theme=radical&no-frame=true&row=1&column=4" width="48%"/>
 
 </div>
 
-<br>
-
 <div align="center">
-
-![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
-![Transformers](https://img.shields.io/badge/🤗%20Transformers-FFD21E?style=for-the-badge)
-![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white)
-![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)
-![Plotly](https://img.shields.io/badge/Plotly-3F4F75?style=for-the-badge&logo=plotly&logoColor=white)
-![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
-![Android](https://img.shields.io/badge/Android-3DDC84?style=for-the-badge&logo=android&logoColor=white)
-
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=aaleenfatima&theme=synthwave&hide_border=true" width="100%"/>
 </div>
 
 ---
 
-## 📊 GitHub Stats
+## `$ contact --init`
 
 <div align="center">
 
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=aaleenfatima&theme=tokyonight&hide_border=true" width="48%"/>
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=aaleenfatima&layout=compact&theme=tokyonight&hide_border=true" width="48%"/>
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-000000?style=for-the-badge&logo=linkedin&logoColor=0A66C2)](https://linkedin.com/in/aaleen-fatima-13bb7734b)
 
 </div>
 
-<div align="center">
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=aaleenfatima&theme=tokyo-night&hide_border=true" width="100%"/>
-</div>
-
----
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=100&section=footer" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:24243e,50:302b63,100:0f0c29&height=100&section=footer" width="100%"/>

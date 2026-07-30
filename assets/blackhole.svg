@@ -1,0 +1,87 @@
+<svg viewBox="0 0 1200 260" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="50%" r="75%">
+      <stop offset="0%" stop-color="#1a1033"/>
+      <stop offset="55%" stop-color="#0f0c29"/>
+      <stop offset="100%" stop-color="#000000"/>
+    </radialGradient>
+
+    <radialGradient id="core" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#000000"/>
+      <stop offset="70%" stop-color="#000000"/>
+      <stop offset="100%" stop-color="#1a0b2e"/>
+    </radialGradient>
+
+    <linearGradient id="ring1" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#F72585"/>
+      <stop offset="50%" stop-color="#B983FF"/>
+      <stop offset="100%" stop-color="#7EE8FA"/>
+    </linearGradient>
+
+    <linearGradient id="ring2" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#7EE8FA"/>
+      <stop offset="50%" stop-color="#F72585"/>
+      <stop offset="100%" stop-color="#B983FF"/>
+    </linearGradient>
+
+    <filter id="glow" x="-100%" y="-100%" width="300%" height="300%">
+      <feGaussianBlur stdDeviation="6" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="260" fill="url(#bg)"/>
+
+  <!-- twinkling stars -->
+  <g fill="#ffffff">
+    <circle cx="80" cy="40" r="1.4"><animate attributeName="opacity" values="0.2;1;0.2" dur="2.3s" repeatCount="indefinite"/></circle>
+    <circle cx="150" cy="200" r="1.1"><animate attributeName="opacity" values="1;0.2;1" dur="3.1s" repeatCount="indefinite"/></circle>
+    <circle cx="1080" cy="60" r="1.3"><animate attributeName="opacity" values="0.3;1;0.3" dur="2.7s" repeatCount="indefinite"/></circle>
+    <circle cx="1050" cy="210" r="1.2"><animate attributeName="opacity" values="1;0.3;1" dur="1.9s" repeatCount="indefinite"/></circle>
+    <circle cx="950" cy="30" r="1"><animate attributeName="opacity" values="0.2;1;0.2" dur="3.6s" repeatCount="indefinite"/></circle>
+    <circle cx="220" cy="60" r="1"><animate attributeName="opacity" values="1;0.2;1" dur="2.5s" repeatCount="indefinite"/></circle>
+    <circle cx="330" cy="220" r="1.3"><animate attributeName="opacity" values="0.3;1;0.3" dur="2.1s" repeatCount="indefinite"/></circle>
+    <circle cx="880" cy="180" r="1.1"><animate attributeName="opacity" values="1;0.2;1" dur="3.3s" repeatCount="indefinite"/></circle>
+  </g>
+
+  <!-- accretion disk: rotating gradient rings -->
+  <g transform="translate(600,130)">
+    <g filter="url(#glow)">
+      <ellipse cx="0" cy="0" rx="210" ry="60" fill="none" stroke="url(#ring1)" stroke-width="3" opacity="0.85">
+        <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="9s" repeatCount="indefinite"/>
+      </ellipse>
+      <ellipse cx="0" cy="0" rx="165" ry="46" fill="none" stroke="url(#ring2)" stroke-width="2.5" opacity="0.75">
+        <animateTransform attributeName="transform" type="rotate" from="360" to="0" dur="7s" repeatCount="indefinite"/>
+      </ellipse>
+      <ellipse cx="0" cy="0" rx="120" ry="34" fill="none" stroke="url(#ring1)" stroke-width="2" opacity="0.65">
+        <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="5s" repeatCount="indefinite"/>
+      </ellipse>
+    </g>
+
+    <!-- orbiting particles -->
+    <circle r="2.5" fill="#7EE8FA">
+      <animateMotion dur="6s" repeatCount="indefinite" path="M -210,0 A 210,60 0 1,1 210,0 A 210,60 0 1,1 -210,0"/>
+    </circle>
+    <circle r="2" fill="#F72585">
+      <animateMotion dur="4.5s" repeatCount="indefinite" path="M 0,-46 A 165,46 0 1,1 0,46 A 165,46 0 1,1 0,-46"/>
+    </circle>
+    <circle r="1.8" fill="#B983FF">
+      <animateMotion dur="3.5s" repeatCount="indefinite" path="M -120,0 A 120,34 0 1,1 120,0 A 120,34 0 1,1 -120,0"/>
+    </circle>
+
+    <!-- event horizon core -->
+    <circle cx="0" cy="0" r="52" fill="url(#core)">
+      <animate attributeName="r" values="50;54;50" dur="4s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="0" cy="0" r="52" fill="none" stroke="#B983FF" stroke-width="1" opacity="0.5">
+      <animate attributeName="opacity" values="0.3;0.7;0.3" dur="4s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+
+  <text x="600" y="245" text-anchor="middle" font-family="Fira Code, monospace" font-size="15" fill="#B983FF" opacity="0.8">
+    event_horizon.exe — building things that don't collapse
+  </text>
+</svg>
