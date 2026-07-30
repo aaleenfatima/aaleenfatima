@@ -3,7 +3,7 @@
 <img src="assets/blackhole.svg" width="100%"/>
 
 <a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=800&color=B983FF&background=00000000&center=true&vCenter=true&width=700&lines=Data%20Analytics%20Intern%20%40%20Systems%20Limited;Building%20BLOOM%2C%20SADA%2C%20and%20the%20NLP%20Injection%20Detector;Pursuing%20a%20fully-funded%20CS%20Master's%20abroad" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=800&color=B983FF&background=00000000&center=true&vCenter=true&width=700&lines=Data%20Analytics%20Intern%20%40%20Systems%20Limited;Building%20BLOOM%2C%20SADA%2C%20and%20the%20NLP%20Injection%20Detector;Pursuing%20a%20CS%20Master's%20abroad" alt="Typing SVG" />
 </a>
 
 </div>
@@ -15,7 +15,7 @@
 </div>
 
 - 🎓 Final-year **Computer Science** student at **FAST NUCES**, Pakistan — starting my last year in August 2026
-- 💼 **Data Analytics Intern @ [Company]** — proposed and now leading my own project
+- 💼 **Data Analytics Intern @ Systems Limited** — proposed and now leading my own project
 - 🔬 Focused on **applied ML/NLP**, multimodal systems, and shipping things that actually work
 - 🌱 Working toward a **Master's abroad** (🇩🇪 Germany / 🇨🇭 Switzerland / 🇯🇵 Japan / 🇰🇷 South Korea / 🇺🇸 USA)
 - ⚡ Philosophy: the simplest working solution wins — every time
