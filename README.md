@@ -48,10 +48,6 @@
 <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=24&duration=2500&pause=100000&color=B983FF&background=00000000&center=true&vCenter=true&repeat=false&width=520&lines=Current%20Projects" />
 </div>
 
-<table>
-<tr>
-<td width="50%" valign="top">
-
 ### 🌸 BLOOM
 **Offline Android app screening young children for autism, ADHD & speech delays**
 
@@ -64,21 +60,7 @@ Currently finalizing the Master Multimodal Data Acquisition Protocol and prepari
 
 `Python` `PyTorch` `Android` `Multimodal ML` `On-device Inference`
 
-</td>
-<td width="50%" valign="top">
-
-### 🎙️ AI Interview Practice Coach
-
-Built on the RAVDESS emotional speech dataset:
-- 📊 Evaluation & visualization of speech/emotion signals
-- 🔍 Root cause analysis of performance patterns
-- 🤖 LLM-generated coaching reports via **local Ollama**
-
-`Python` `RAVDESS` `Ollama` `Speech Emotion Recognition`
-
-</td>
-</tr>
-</table>
+*Repo coming soon.*
 
 ---
 
@@ -90,7 +72,46 @@ Built on the RAVDESS emotional speech dataset:
 <tr>
 <td width="33%" valign="top">
 
-**🛡️ NLP Prompt Injection Detector**
+**🎙️ AI Interview Practice Coach** — [**Repo**](https://github.com/laibaamjad50/RAVDESS)
+
+End-to-end pipeline from emotional speech audio to LLM-generated coaching, built on the RAVDESS dataset:
+- 📊 Evaluation & visualization of speech/emotion signals
+- 🔍 Root cause analysis of performance patterns
+- 🤖 Offline coaching reports via **local Ollama**
+
+`Python` `RAVDESS` `Ollama` `Speech Emotion Recognition` `Audio ML`
+
+</td>
+<td width="33%" valign="top">
+
+**🪐 SADA** — [**Repo**](https://github.com/aaleenfatima/SADA)
+
+ML + agentic pipeline separating genuine planetary transits from false positives in Kepler DR25 TCEs. Benchmarks four models on an identical held-out set (n=678 of 8,074) — best fair-comparison Random Forest hits **F1 = 0.897, ROC-AUC = 0.951**, beating a 1D CNN (F1 = 0.825) and logistic baseline (F1 = 0.755).
+
+- 📉 Learning curves show the gap is training-size driven, not architectural
+- 🧩 Local-view branch + ensemble lift CNN (F1 0.822→0.831; Brier 0.138→0.127)
+
+`Machine Learning` `Agentic AI` `Astro Data` `PyTorch` `Kepler DR25`
+
+</td>
+<td width="33%" valign="top">
+
+**🧠 Aniporia** — [**Repo**](https://github.com/abdullahiqbal2610/Aniporia)
+
+AI-powered knowledge gap tracker built on the **Gemini API** — turn notes and PDFs into a personalized study loop.
+
+- 📸 **OCR & PDF extraction** — EasyOCR + TrOCR for handwriting, PyMuPDF for digital PDFs
+- 🔍 **Gap analysis & smart practice** — Gemini scores syllabus topics 0–100 and generates MCQs that never repeat
+- 🌌 **Knowledge Galaxy & badges** — 3D force-graph progress view with mastery tracking and badges
+
+`Gemini API` `EdTech` `EasyOCR` `TrOCR` `PyMuPDF` `3D Visualization`
+
+</td>
+</tr>
+<tr>
+<td width="33%" valign="top">
+
+**🛡️ NLP Prompt Injection Detector** — [**Repo**](https://github.com/aaleenfatima/NLP-Prompt-Injection)
 
 Transformer-based classifier — **95% accuracy**, benchmarked against multiple models. Prepping an arXiv preprint + EMNLP/ACL workshop submissions.
 
@@ -99,27 +120,27 @@ Transformer-based classifier — **95% accuracy**, benchmarked against multiple 
 </td>
 <td width="33%" valign="top">
 
-**🪐 SADA**
+**📝 Multi-Agent Research Paper Critic** — [**Repo**](https://github.com/aaleenfatima/paper-eval-multi-agents)
 
-ML + agentic architecture for **exoplanet transit detection** using NASA Kepler data. Targeting ML4PS @ NeurIPS.
+Local-first, multi-agent AI pre-submission reviewer for CS/ML papers. Four-stage workflow — initial review, clarification, debate, and synthesis — grounded in Semantic Scholar retrieval and powered by a local Ollama model.
 
-`Machine Learning` `Agentic AI` `Astro Data`
+`Python` `Streamlit` `Ollama` `Semantic Scholar` `Multi-Agent`
 
 </td>
 <td width="33%" valign="top">
 
-**🧠 Aniporia**
+**🎒 Student Resource Rental WebApp** — [**Repo**](https://github.com/aaleenfatima/Student-Resource-Rental-WebApp)
 
-AI-powered knowledge gap tracker built on the **Gemini API**.
+Full-stack community resource rental & sharing platform: ads, listings, blood donation coordination, lost & found, and profiles — with secure auth, image uploads, and password encryption.
 
-`Gemini API` `EdTech`
+`Node.js` `Express` `MS SQL Server` `React 19` `bcrypt`
 
 </td>
 </tr>
 <tr>
 <td width="33%" valign="top">
 
-**🌐 TCP/IP Stack**
+**🌐 TCP/IP Stack** — [**Repo**](https://github.com/aaleenfatima/minnow-Stanford)
 
 From-scratch TCP/IP implementation in **C++**, following Stanford's **CS144**.
 
@@ -128,7 +149,7 @@ From-scratch TCP/IP implementation in **C++**, following Stanford's **CS144**.
 </td>
 <td width="33%" valign="top">
 
-**📘 Facebook Clone**
+**📘 Facebook Clone** — [**Repo**](https://github.com/aaleenfatima/Facebook-Clone-backend-)
 
 Full social-platform clone in **C++**, built with OOP design principles.
 
@@ -136,12 +157,6 @@ Full social-platform clone in **C++**, built with OOP design principles.
 
 </td>
 <td width="33%" valign="top">
-
-**✍️ StyleScript**
-
-Handwriting OCR enhancement built on top of **TrOCR**.
-
-`TrOCR` `Computer Vision` `OCR`
 
 </td>
 </tr>
